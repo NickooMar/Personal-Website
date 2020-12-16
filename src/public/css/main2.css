@@ -1,0 +1,23 @@
+body{
+    background-color: #ffffff;
+}
+#error-text {
+    font-size: 150px;
+    font-weight: 800;
+    color: white;
+    background-image: url('https://i.pinimg.com/originals/f2/dd/65/f2dd65f0592f39e95f1f4bce1f97f3ee.jpg');
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 210px;
+}
+.p-error {
+    font-weight: bold;
+    font-size: 25px;
+}
+.sub-p-error {
+    font-style: italic;
+}
+
+.btn {
+    border-radius: 25px;
+}
