@@ -1,90 +1,96 @@
-body{
-  background: url('/img/background.jpg') no-repeat center center fixed;
-  background-size: cover;
+body {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #37b6cc 1.4%, #23277c 90% );
 }
-html{
+
+html {
   margin: auto;
+  scroll-behavior: smooth;
 }
 
-.nav-align{
-  text-decoration: none;
-}
-
-.nav-item{
-  font-size: 22px;
-}
-
-.name-middle{
+.name-middle {
   color: white;
-  margin-top: 150px;
+  margin-top: 300px;
   margin-bottom: 35px;
   font-style: italic;
 }
-a{
-  text-decoration: none;
-}
 
-a:hover{
-  text-decoration: none;
-}
-
-
-.hover-nav{
-  margin-top: 15px;
+.hover-nav {
+  margin-top: 20px;
   text-decoration: none;
   color: grey;
 }
 
-.hover-nav:hover{
-  color:white;
+.hover-nav:hover {
+  color: black;
+  text-decoration: none;
 }
+
+
 
 .logoIndex {
   width: 250px;
   height: 250px;
-  border-radius: 100% ;
+  border-radius: 100%;
   border: 2px solid white;
 }
 
-.navLogo{
+.navLogo {
   width: 50px;
   height: 50px;
 }
 
-.buttonMiddle{
+.mediaButtons {
   color: white;
-
 }
 
-.buttonMiddle:hover{
-  color: green;
+.mediaButtons:hover {
+  color: #343a40;
 }
 
-.row{
+.row {
   height: 100%;
   width: 100%;
 }
 
-.centerTitleCard{
+.marginText {
+  margin-top: 490px;
+}
+
+.centerTitleCard {
   padding-bottom: 100px;
   padding-top: 100px;
   margin-left: 25px;
+  color: black
 }
 
-.objectivesText{
-  font-size: 28px;
+.p-card-aboutme {
+  font-size: 28px; 
+  padding-top: 45px
 }
 
-.CRUDsetting{
-  margin-top: 25px;
-  width: 500px;
-  height: 500px;
+.portfolio-title {
+  color: white;
+  margin-right: 15px
 }
 
-#page-container {
-  margin-top: 130px;
+.portfolio-items {
+  font-size: 25px;
+  color: white
 }
 
+
+.knowledge-items {
+  font-size: 25px
+}
+
+
+.knowledge-last-p {
+  font-size: 15px
+}
+
+
+
+/* Contact Page */
 .text-xs-center {
   text-align: center;
 }
